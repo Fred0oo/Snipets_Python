@@ -1,6 +1,6 @@
 import sys
 import os
-import cx_freeze import setup, Executable
+from cx_freeze import setup, Executable
 
 # lancement avec < python setup.py build >
 
