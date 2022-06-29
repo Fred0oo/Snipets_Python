@@ -1,0 +1,11 @@
+from urllib.request import urlopen
+
+proxies = {
+"http": "localhost:3128"
+"http": "localhost:3125"
+}
+proxy = urlib.request.ProxyHandler(proxies)
+opener = urlib.request.build_opener(proxy
+urlib.request.install_opener(opener)
+
+data = urlopen("http://www.python.org").read()
